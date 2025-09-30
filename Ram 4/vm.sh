@@ -22,8 +22,8 @@ EOF
 # =============================
 # Install Dependencies
 # =============================
-sudo apt update
-sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager cloud-image-utils
+apt update
+apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager cloud-image-utils
 
 # =============================
 # Configurable Variables
